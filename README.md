@@ -14,12 +14,8 @@ gamma-ctl <monitor-index> <brightness> <contrast> <gamma>
 * Gamma: A number between 0.3 and 2.8, the default is 1.
 ## Building
 1. Install Rust (If using Windows also install Visual C++ Build Tools).
-2. Install Rust Nightly toolchain with the following command:
-```
-rustup toolchain install nightly -c rust-src
-```
-3. Clone the project.
-4. Compile the project with the following command:
+2. Clone the project.
+3. Compile the project with the following command:
 ```
 cargo build --release
 ```
